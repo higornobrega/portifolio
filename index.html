@@ -1,177 +1,433 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/styleHeader.css">
-    <link rel="stylesheet" href="css/btnMenu.css">
-    <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <title>Protifólio</title>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+   <title>Higor Nóbrega</title>
+   <meta name="description" content="">
+   <meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+   <!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+   <link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+   <script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+
 </head>
+
 <body>
-    <div id="container">
-    <header>
-        <div id="logo">
-            <h1>
-                <a href="">
-                </a>
-            </h1> 
-        </div>
-        <div id="MenuLat">
-            <nav class="wrap-menu">
 
-                <a href="#menu" class="btnMenu btnMenu_open">Menu</a>
-                <ul id="menu" class="menu">
-                    <li class="btnMenu btnMenu_close">Sair</li>
-                    <li class="menu-item">
-                        <a href="" class="menu-item-action">Cursos</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="" class="menu-item-action">Comunidade</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="" class="menu-item-action">Minha Conta</a>
-                    </li>
-                </ul>
-            </nav>
-            <script src="js/btnMenu.js"></script>
-        </div>
-    </header>
-    <section>
-        <div id="inicio">
-            <h1>Higor Nóbrega</h1>
-            <h2>Desenvolvedor Web</h2>
-            <h3>Quem sou eu</h3>
-        </div>
-        <div id="inf">
-            <h2>Apresentaçõa</h2>
-            <img src="img/higor.jpeg" alt="Higor Nóbrega">
-            <p>Graduando em Bacharel em Sistemas de Informação pela Universidade Federal do Rio Grande do Norte. 
-                Atualmente Diretor-Presidente da Empresa Júnior Byte Seridó Jr, Bolsista do Programa de Educação 
-                Tutorial e vinculado aos Laboratórios de Inteligência Computacional Aplicada aos Negócios (labican.org) 
-                e de Banco de Dados e Engenharia de Software (LABENS) na Universidade Federal do Rio Grande do Norte, 
-                Centro de Ensino Superior do Seridó, Caicó, RN. Gosto de transfor problemas em projetos simples e intuitivo 
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+         <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">Quem sou eu</a></li>
+            <li><a class="smoothscroll" href="#resume">Formações & Esperiências</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Projetos</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Higor Nóbrega</h1>
+            <h3> Sou desenvolvedor Web, de uma cidadezinha no interior do RN. Gosto de transformar problemas em projetos
+               simples e intuitivo. <a class="smoothscroll" href="#about"> Abaixo </a>
+               saberá <a class="smoothscroll" href="#about">sobre mim</a>.</h3>
+            <hr />
+
+            <ul class="social">
+               <li><a href="mailto:higorst.nobrega@gmail.com?subject=Questions" title=""><i class="fa fa-envelope"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/higornobrega/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://github.com/higornobrega"><i class="fa fa-github"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic" src="images/Perfil.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>Sobre mim</h2>
+
+            <p>Graduando em Bacharel em Sistemas de Informação pela Universidade Federal do Rio Grande do Norte.
+               Atualmente Diretor-Presidente da Empresa Júnior Byte Seridó Jr, Bolsista do Programa de Educação
+               Tutorial e vinculado aos Laboratórios de Inteligência Computacional Aplicada aos Negócios (labican.org)
+               e de Banco de Dados e Engenharia de Software (LABENS) na Universidade Federal do Rio Grande do Norte,
+               Centro de Ensino Superior do Seridó, Caicó, RN.
             </p>
-            <button>Portifólio</button> <button>Formação</button>
-        </div>
-        <div id="Skills">
-            <h2>Skills</h2>
-            <p> 
-                Linguagens, ferramentas e frameworks que estudo e gosto de brincar em projetos Web 
-            </p>
-            <div class="tecnologias">
-                <h3>HTML</h3>
-                <p>
-                    O HTML é a liguagemde marcação base da internet. Foi criada para ser permitido inserir 
-                    conteúdo e estabelecer a estrutura básica do website
 
-                </p>
-                <h3>CSS</h3>
-                <p>
-                    CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo 
-                    usada para descrever a apresentação de um documento escrito em HTML.
-                </p>
-                <h3>JavaScript</h3>
-                <p>
-                    JavaScript é uma linguagem leve, interpretada e baseada em objetos com funções de 
-                    primeira classe, mais conhecida como a linguagem de script para páginas Web.
-                </p>
-                <h3>Python</h3>
-                <p>
-                    O Python é uma linguagem de programação de alto nível e muito versátil. Ela suporta 
-                    tanto a programação orientada a objetos quanto estruturada. Na web geralmente usarda na parte do Back-end
-                </p>
-                <h3>Django</h3>
-                <p>
-                    O Django é uma estrutura da Web Python de alto nível que incentiva o desenvolvimento rápido e o design limpo e pragmático.
-                </p>
-                <h3>React.js</h3>
-                <p>
-                    O React (também denominado React.js ou ReactJS) é uma biblioteca JavaScript de código aberto com foco 
-                    em criar interfaces de usuário (frontend) em páginas web.
-                </p>
-                <h3>React Native</h3>
-                <p>
-                    React Native é uma biblioteca Javascript criada pelo Facebook. É usada para desenvolver aplicativos para os sistemas 
-                    Android e IOS de forma nativa.
-                </p>
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contato</h2>
+                  <p class="address">
+                     <span>Higor Nóbrega</span><br>
+                     <span>Caicó - RN<br>
+                     </span>
+                     <ul class="social">
+                     <li><a href="https://api.whatsapp.com/send?1=pt_BR&phone=5584999508731"><i class="fa fa-mobile-phone"></i> (84)99950-8731</a></li>
+                     <li><a href="mailto:higorst.nobrega@gmail.com?subject=Questions" title=""><i class="fa fa-envelope"></i> higorst.nobrega@gmail.com</a></li>
+                     <!--<a href="mailto:someone@example.com?subject=Questions&body=Write here if you have questions" title="" >Perguntas aqui</a>-->
+                  </ul>
+                  </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="https://docs.google.com/document/d/1Cnxni_Kh7KDWa2a_xmQUPnYlrqmvxCSBZkXkA79Q2kc/edit?usp=sharing"
+                        class="button"><i class="fa fa-download"></i>Curriculo</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Educação</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Universidade Federal do Rio Grande do Norte - CERES - Caicó - </h3>
+                  <p class="info">Bacharelado em Sistemas de Informações <span>&bull;</span> <em class="date">2017 -
+                        Atualmente</em></p>
+
+                  <p>
+                     Trabalho de conclusão de curso - Sistema de Acompanhamento de Gestante
+                     Desenvolvimento de um sistema Multiplataforma para realizar o acompanhamento de gestantes, visando
+                     trazer
+                     mobilidade e agilidade no processo assim como integrar Unidades Básicas de Saúde com Hospitais.
+                     Responsável
+                     por criar o layout de todo o sistema, utilizando técnicas de UX/UI, e responsável pela codificação
+                     Front End e Back End do projeto utilizando algumas linguagens como:
+                     HTML: utilizado a Metodologia BEM de marcação.
+                     CSS: utilizado o Pré Processador SASS.
+                     JavaScript: utilizado React e React Native.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+            </div> <!-- main-col end -->
+
+         </div> <!-- End Education -->
+
+
+         <!-- Work
+      ----------------------------------------------- -->
+         <div class="row work">
+
+            <div class="three columns header-col">
+               <h1><span>Esperiência</span></h1>
             </div>
-            <div id="projetos">
-                <h2>Projetos</h2>
-                <p>
-                    Meus projetos Web
-                </p>
-                <h3>Projeto 1</h3>
-                <p> 
-                    Exemplo do projeto aqui
-                </p>
-                <h3>Projeto 2</h3>
-                <p>
-                    Exemplo do Projeto aqui
-                </p>
+
+            <div class="nine columns main-col">
+
+               <div class="row item">
+
+                  <div class="twelve columns">
+
+                     <h3>Diretor</h3>
+                     <p class="info">Diretor Presidente Byte Seridó Jr <span>&bull;</span> <em class="date">Fevereiro
+                           2019 - Atualmente</em></p>
+
+                     <p>
+                        Responsável por dirigir, planejar e orientar o uso dos recursos financeiros, físicos,
+                        tecnológicos e humanos
+                        da empresa, buscando soluções para problemas da empresa, criando métodos, planejando atividades,
+                        organizando o
+                        funcionamento dos vários setores da empresa.
+                     </p>
+
+                  </div>
+
+               </div> <!-- item end -->
+
+
+            </div> <!-- main-col end -->
+
+         </div> <!-- End Work -->
+
+
+         <!-- Skills
+      ----------------------------------------------- -->
+         <div class="row skill">
+
+            <div class="three columns header-col">
+               <h1><span>Skills</span></h1>
             </div>
-            <div id="formacao">
-                <h2>Formações & Esperiencias </h2>
-                <h3>Bacharelado em Sistemas de Informações</h3>
-                <h4>Universidade Federal do Rio Grande do Norte - CERES - Caicó - (2017 - Atualmente)</h4>
-                <p>
-                    Trabalho de conclusão de curso - Sistema de Acompanhamento de Gestante
-                    Desenvolvimento de um sistema Multiplataforma para realizar o acompanhamento de gestantes, visando trazer 
-                    mobilidade e agilidade no processo assim como integrar Unidades Básicas de Saúde com Hospitais. Responsável 
-                    por criar o layout de todo o sistema, utilizando técnicas de UX/UI, e responsável pela codificação Front End e Back End do projeto utilizando algumas linguagens como:
-                    HTML: utilizado a Metodologia BEM de marcação.
-                    CSS: utilizado o Pré Processador SASS.
-                    JavaScript: utilizado React e React Native.
 
-                </p>
-                <!--
-                    Dirige, planeja, organiza e controla as atividades de diversas áreas da empresa, 
-                    fixando políticas de gestão dos recursos financeiros, administrativos, estruturação, 
-                    racionalização, e adequação dos serviços diversos. Desenvolve planejamento estratégico, 
-                    identifica oportunidades, avalia a viabilidade e faz recomendações sobre novos investimentos 
-                    ou desenvolvimento de novos negócios.
-                    
-                    Outro
-                    
-                    http://www.promerito.com.br/consultoria/diretor_geral.php
+            <div class="nine columns main-col">
 
-                -->
-                <h3>Diretor</h3>
-                <h4>Diretor Presidente Byte Seridó Jr</h4>
-                <p>
-                    Responsável por dirigir, planejar e orientar o uso dos recursos financeiros, físicos, tecnológicos e humanos 
-                    da empresa, buscando soluções para problemas da empresa, criando métodos, planejando atividades, organizando o 
-                    funcionamento dos vários setores da empresa.
+               <p>Linguagens, ferramentas e frameworks que estudo e gosto de brincar em projetos Web
+               </p>
 
-                </p>
+               <div class="bars">
 
-    
+                  <ul class="skills">
+                     <li><span class="bar-expand photoshop"></span><em>HTML5</em></li>
+                     <li><span class="bar-expand illustrator"></span><em>CSS</em></li>
+                     <li><span class="bar-expand wordpress"></span><em>JavaScript</em></li>
+                     <li><span class="bar-expand css"></span><em>Python</em></li>
+                     <li><span class="bar-expand html5"></span><em>Django</em></li>
+                     <li><span class="bar-expand jquery"></span><em>React.js</em></li>
+                     <li><span class="bar-expand jquery"></span><em>React Native</em></li>
+                  </ul>
+
+               </div><!-- end skill-bars -->
+
+            </div> <!-- main-col end -->
+
+         </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Exemplos de projetos</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/bethehero.jpeg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>Be the Hero</h5>
+                              <p>React + React Native</p>
+                           </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+               </div> <!-- item end -->
+
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+            <img class="scale-with-grid" src="images/portfolio/bethehero.jpeg" alt="" />
+
+            <div class="description-box">
+               <h4>Be the Hero</h4>
+               <p>Um sistema para conectar pessoas dispostas a ajudar a ONGs que precisam dessa ajuda.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Web Develop</span>
             </div>
-            <div id="contato">
-                <h2>Onde me encontrar? </h2>
-                <h3>Whatsapp</h3>
-                <p>(84)999508731</p>
-                <button>Whatsapp</button>
-                <h3>E-mail</h3>
-                <p>higorst.nobrega@gmail.com</p>
-                <button>E-mail</button>
-                <h3>GitHub</h3>
-                <p>higornobrega</p>
-                <button>GitHub</button>
-                <h3>Instagram</h3>
-                <p>@higorssn</p>
-                <button>Instagram</button>
+
+            <div class="link-box">
+               <a href="https://github.com/higornobrega/be-the-hero" target="_blank">GitHub</a>
+               <a class="popup-modal-dismiss">Close</a>
             </div>
-            
-        </div>
-    </section>
-    <footer>
-        LOGO
-        <p> Higor Nóbrega &copy; 2020 - Todos os direitos reservados </p>
-    </footer>
-</div>
-    <script src="js/script.js"></script>
+
+         </div><!-- modal-01 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>Client Testimonials</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p>“A melhor maneira de prever o futuro é inventá-lo.”
+                           </p>
+                           <cite>Alan Kay</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+                     <li>
+                        <blockquote>
+                           <p>"Uma imagem vale mais do que mil palavras, mas ocupa 3 mil vezes mais espaço em disco."
+                           </p>
+                           <cite>Desconhecido</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                     <li>
+                        <blockquote>
+                           <p>"Programadores são ferramentas para converter cafeína em código."
+                           </p>
+                           <cite>Nerds</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+                     <li>
+                        <blockquote>
+                           <p>"Colocar um computador na frente de uma criança esperando que ela aprenda é como colocar
+                              um livro debaixo do travesseiro dela, só que mais caro."
+                           </p>
+                           <cite>Desconhecido</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+                     <li>
+                        <blockquote>
+                           <p>"Algumas coisas o homem nunca deverá saber. Para todas as outras, há o Google."
+                           </p>
+                           <cite>Desconhecido</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+                     <li>
+                        <blockquote>
+                           <p>“O verdadeiro perigo não é que computadores começarão a pensar como homens, mas que homens
+                              começarão a pensar como computadores.”
+                           </p>
+                           <cite>Sydney J. Harris,</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+      </div> <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://twitter.com/Higorssn"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://www.instagram.com/higor_ssn/?hl=pt-br"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2020 Higor Nóbrega</li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a>
+         </div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
 </body>
+
 </html>
